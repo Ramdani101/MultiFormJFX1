@@ -19,5 +19,6 @@
       <Button fx:id="btnmodel" layoutX="91.0" layoutY="192.0" mnemonicParsing="false" onAction="#modelklik" text="Modeless" />
       <Button fx:id="btnhapus" layoutX="179.0" layoutY="192.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
       <Button fx:id="btnkeluar" layoutX="247.0" layoutY="192.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnubahharga" layoutX="121.0" layoutY="235.0" mnemonicParsing="false" onAction="#ubahhargaklik" text="Ubah Harga" />
     </children>
 </AnchorPane>
