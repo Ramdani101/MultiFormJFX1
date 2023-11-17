@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="501.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="multiformjfx1.FXML_outputController">
+   <children>
+      <Label layoutX="52.0" layoutY="37.0" text="Nama Pembeli" />
+      <Label fx:id="lblpembeli" layoutX="372.0" layoutY="37.0" text="Label" />
+      <Label fx:id="lbljenisrumah" layoutX="372.0" layoutY="67.0" text="Label" />
+      <Label layoutX="52.0" layoutY="67.0" text="Jenis Rumah" />
+      <Label layoutX="52.0" layoutY="101.0" text="Harga Rumah" />
+      <Label fx:id="lblhargarumah" layoutX="372.0" layoutY="101.0" text="Label" />
+      <Label fx:id="lblhasiltanah" layoutX="372.0" layoutY="132.0" text="Label" />
+      <Label layoutX="52.0" layoutY="132.0" text="Harga Tanah" />
+      <Label layoutX="52.0" layoutY="166.0" text="Sub Total" />
+      <Label fx:id="lblsubtotal" layoutX="372.0" layoutY="166.0" text="Label" />
+      <Label fx:id="lblpajak" layoutX="372.0" layoutY="200.0" text="Label" />
+      <Label layoutX="52.0" layoutY="200.0" text="Pajak" />
+      <Label layoutX="52.0" layoutY="234.0" text="Total Pembayaran" />
+      <Label fx:id="lbltotal" layoutX="372.0" layoutY="234.0" text="Label" />
+      <Label layoutX="323.0" layoutY="132.0" text="=" />
+      <Label fx:id="lblhargatanah" layoutX="277.0" layoutY="132.0" text="Label" />
+      <Label layoutX="244.0" layoutY="132.0" text="x" />
+      <Label layoutX="211.0" layoutY="132.0" text="m" />
+      <Label fx:id="lblluastanah" layoutX="161.0" layoutY="132.0" text="Label" />
+      <Label layoutX="371.0" layoutY="149.0" text="------------------- +" />
+      <Label layoutX="372.0" layoutY="217.0" text="------------------- +" />
+      <Button fx:id="btnkembali" layoutX="40.0" layoutY="315.0" mnemonicParsing="false" onAction="#kembaliklik" text="Kembali" />
+   </children>
+</AnchorPane>
