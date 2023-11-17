@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="269.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiformjfx1.Controler.Ubah_Harga.FXML_ubahhargaController">
+<AnchorPane id="AnchorPane" prefHeight="269.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiformjfx1.Controller.Ubah_Harga.FXML_ubahhargaController">
    <children>
       <Label layoutX="148.0" layoutY="26.0" text="Harga Rumah" />
       <Label layoutX="307.0" layoutY="26.0" text="Harga Tanah/m" />

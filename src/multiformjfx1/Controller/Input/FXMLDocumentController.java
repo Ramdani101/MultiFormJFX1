@@ -88,7 +88,7 @@ public class FXMLDocumentController implements Initializable {
         dt.setPembeli(txtpembeli.getText());
         dt.setPilihJenis(chbjenis.getSelectionModel().getSelectedIndex());
         try{  FXMLLoader loader=new    
-          FXMLLoader(getClass().getResource("FXML_output.fxml"));    
+          FXMLLoader(getClass().getResource("/multiformjfx1/FXML/Output/FXML_output.fxml"));    
           Parent root = (Parent)loader.load();
 //koding untuk mengirim data ke tampilan output
           FXML_outputController isidt=     
@@ -128,7 +128,7 @@ public class FXMLDocumentController implements Initializable {
         dt.setPembeli(txtpembeli.getText());
         dt.setPilihJenis(chbjenis.getSelectionModel().getSelectedIndex());
         try{  FXMLLoader loader=new    
-          FXMLLoader(getClass().getResource("FXML_output.fxml"));    
+          FXMLLoader(getClass().getResource("/multiformjfx1/FXML/Output/FXML_output.fxml"));    
           Parent root = (Parent)loader.load();
 //koding untuk mengirim data ke tampilan output
           FXML_outputController isidt=     
