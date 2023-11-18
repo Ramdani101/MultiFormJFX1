@@ -8,8 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MultiFormJFX1.jar" size="8698" download="eager" />
+    <jar href="MultiFormJFX1.jar" size="14028" download="eager" />
   </resources>
-  <jfx:javafx-desc  width="800" height="600" main-class="multiformjfx1.MultiFormJFX1"  name="MultiFormJFX1" />
+  <jfx:javafx-desc  width="800" height="600" main-class="multiformjfx1.Main_Class.MultiFormJFX1"  name="MultiFormJFX1" />
   <update check="always"/>
 </jnlp>

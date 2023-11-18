@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML2.java to edit this template
  */
-package multiformjfx1;
+package multiformjfx1.Controller.Input;
 
+import multiformjfx1.Model.Harga.Model_harga;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -24,6 +25,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TextInputDialog;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import multiformjfx1.Controller.Output.FXML_outputController;
+import multiformjfx1.Model.MultiformJFX1.MultiFormJFX1Model;
 
 /**
  *
@@ -85,7 +88,7 @@ public class FXMLDocumentController implements Initializable {
         dt.setPembeli(txtpembeli.getText());
         dt.setPilihJenis(chbjenis.getSelectionModel().getSelectedIndex());
         try{  FXMLLoader loader=new    
-          FXMLLoader(getClass().getResource("FXML_output.fxml"));    
+          FXMLLoader(getClass().getResource("/multiformjfx1/FXML/Output/FXML_output.fxml"));    
           Parent root = (Parent)loader.load();
 //koding untuk mengirim data ke tampilan output
           FXML_outputController isidt=     
@@ -125,7 +128,7 @@ public class FXMLDocumentController implements Initializable {
         dt.setPembeli(txtpembeli.getText());
         dt.setPilihJenis(chbjenis.getSelectionModel().getSelectedIndex());
         try{  FXMLLoader loader=new    
-          FXMLLoader(getClass().getResource("FXML_output.fxml"));    
+          FXMLLoader(getClass().getResource("/multiformjfx1/FXML/Output/FXML_output.fxml"));    
           Parent root = (Parent)loader.load();
 //koding untuk mengirim data ke tampilan output
           FXML_outputController isidt=     
@@ -156,7 +159,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void ubahhargaklik(ActionEvent event) {
         try{
-        FXMLLoader loader=new FXMLLoader(getClass().getResource("FXML_ubahharga.fxml"));    
+        FXMLLoader loader=new FXMLLoader(getClass().getResource("/multiformjfx1/FXML.Ubah_Harga/FXML_ubahharga.fxml"));    
         Parent root = (Parent)loader.load();
         Scene scene = new Scene(root);
         Stage stg=new Stage();

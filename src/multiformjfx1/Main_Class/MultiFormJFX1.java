@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML.java to edit this template
  */
-package multiformjfx1;
+package multiformjfx1.Main_Class;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -22,7 +22,7 @@ public class MultiFormJFX1 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/multiformjfx1/FXML/Input/FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
              

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="269.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiformjfx1.Controller.Ubah_Harga.FXML_ubahhargaController">
+   <children>
+      <Label layoutX="148.0" layoutY="26.0" text="Harga Rumah" />
+      <Label layoutX="307.0" layoutY="26.0" text="Harga Tanah/m" />
+      <Label layoutX="28.0" layoutY="62.0" text="Sedehrana" />
+      <Label layoutX="28.0" layoutY="109.0" text="Menengah" />
+      <Label layoutX="28.0" layoutY="156.0" text="Mewah" />
+      <TextField fx:id="txthrsederhana" layoutX="110.0" layoutY="58.0" promptText="50000000" />
+      <TextField fx:id="txthtsederhana" layoutX="274.0" layoutY="58.0" promptText="500000" />
+      <TextField fx:id="txthrmenengah" layoutX="110.0" layoutY="105.0" promptText="100000000" />
+      <TextField fx:id="txthtmenengah" layoutX="274.0" layoutY="105.0" promptText="800000" />
+      <TextField fx:id="txthrmewah" layoutX="110.0" layoutY="152.0" promptText="500000000" />
+      <TextField fx:id="txthtmewah" layoutX="274.0" layoutY="152.0" promptText="2000000" />
+      <Button fx:id="btnok" layoutX="94.0" layoutY="214.0" mnemonicParsing="false" onAction="#okklik" text="Ok" />
+      <Button fx:id="btnreset" layoutX="326.0" layoutY="214.0" mnemonicParsing="false" onAction="#resetklik" text="Reset" />
+   </children>
+</AnchorPane>
